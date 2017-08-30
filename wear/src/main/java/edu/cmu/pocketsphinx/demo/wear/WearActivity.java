@@ -128,16 +128,16 @@ public class WearActivity extends Activity implements
             return;
 
         String text = hypothesis.getHypstr();
-        if (text.equals(KEYPHRASE))
-            switchSearch(MENU_SEARCH);
-        else if (text.equals(DIGITS_SEARCH))
-            switchSearch(DIGITS_SEARCH);
-        else if (text.equals(PHONE_SEARCH))
-            switchSearch(PHONE_SEARCH);
-        else if (text.equals(FORECAST_SEARCH))
-            switchSearch(FORECAST_SEARCH);
-        else
-            ((TextView) findViewById(R.id.result_text)).setText(text);
+//        if (text.equals(KEYPHRASE))
+//            switchSearch(MENU_SEARCH);
+//        else if (text.equals(DIGITS_SEARCH))
+//            switchSearch(DIGITS_SEARCH);
+//        else if (text.equals(PHONE_SEARCH))
+//            switchSearch(PHONE_SEARCH);
+//        else if (text.equals(FORECAST_SEARCH))
+//            switchSearch(FORECAST_SEARCH);
+//        else
+        ((TextView) findViewById(R.id.result_text)).setText(text);
     }
 
     /**
